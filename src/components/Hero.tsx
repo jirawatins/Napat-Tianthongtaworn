@@ -97,20 +97,14 @@ export default function Hero() {
         </div>
 
         {/* Image Content - Positioned alongside or slightly behind on desktop */}
-        <motion.div
+        {/* <motion.div
           initial={{ opacity: 0, scale: 0.9, x: 20 }}
           animate={{ opacity: 1, scale: 1, x: 0 }}
           transition={{ duration: 0.8, delay: 0.4 }}
           className="relative w-full lg:absolute lg:right-0 lg:bottom-0 lg:w-[45%] lg:max-w-[600px] z-10 mt-16 lg:mt-0 flex justify-center lg:justify-end pointer-events-none"
         >
-          {/* Decorative background for the image */}
           <div className="absolute bottom-0 left-1/2 -translate-x-1/2 lg:translate-x-0 lg:left-auto lg:right-10 w-[300px] h-[400px] sm:w-[400px] sm:h-[500px] bg-[var(--color-secondary)] rounded-t-full opacity-20 blur-2xl -z-10"></div>
           
-          {/* 
-            User requested a PNG image of a person. 
-            Replace the src below with your actual transparent PNG URL.
-            The styling ensures it sits nicely at the bottom.
-          */}
           <img 
             src="https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?q=80&w=800&auto=format&fit=crop" 
             alt="Napat Tianthongtaworn" 
@@ -121,7 +115,7 @@ export default function Hero() {
             }}
             referrerPolicy="no-referrer"
           />
-        </motion.div>
+        </motion.div> */}
 
       </div>
 
