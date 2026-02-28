@@ -36,7 +36,7 @@ export default function About() {
 
       <div className="container px-4 md:px-6 mx-auto max-w-6xl relative z-10">
         <h2 className="text-4xl md:text-5xl font-bold mb-6 text-[var(--color-primary)] tracking-tight">
-          The Edge
+          About me
         </h2>
 
         <motion.div

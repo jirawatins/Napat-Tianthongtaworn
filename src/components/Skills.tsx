@@ -1,8 +1,8 @@
 import { motion } from 'motion/react';
 
 const skills = [
-  { category: "Core Competencies", items: ["Operational Excellence", "Crisis Management", "Team Leadership", "System Optimization", "Strategic Planning", "Process Improvement"] },
-  { category: "Technical Proficiency", items: ["Data Analytics", "Inventory Management", "POS Systems", "Financial Reporting", "Microsoft Office Suite", "CRM Software"] },
+  { category: "Core Skills", items: ["Operational Excellence", "Crisis Management", "Team Leadership", "System Optimization", "Strategic Planning", "Process Improvement"] },
+  { category: "Technical", items: ["Data Analytics", "Inventory Management", "POS Systems", "Financial Reporting", "Microsoft Office Suite", "CRM Software"] },
   { category: "Soft Skills", items: ["Communication", "Problem Solving", "Adaptability", "Customer Focus", "Emotional Intelligence", "Time Management"] }
 ];
 
@@ -15,7 +15,7 @@ export default function Skills() {
 
       <div className="container px-4 md:px-6 mx-auto max-w-6xl relative z-10">
         <h2 className="text-4xl md:text-5xl font-bold mb-6 text-[var(--color-primary)] tracking-tight">
-          Competencies
+          Skills
         </h2>
 
         <motion.div

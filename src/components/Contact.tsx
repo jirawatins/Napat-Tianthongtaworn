@@ -168,9 +168,6 @@ export default function Contact() {
                 <Button variant="outline" size="lg" className="rounded-full w-14 h-14 p-0 flex items-center justify-center border-2 border-[var(--color-border)] text-[var(--color-text-primary)] hover:bg-[var(--color-primary)] hover:text-white hover:border-[var(--color-primary)] hover:scale-110 transition-all shadow-sm">
                   <Linkedin className="w-6 h-6" />
                 </Button>
-                <Button variant="outline" size="lg" className="rounded-full w-14 h-14 p-0 flex items-center justify-center border-2 border-[var(--color-border)] text-[var(--color-text-primary)] hover:bg-[var(--color-secondary)] hover:text-white hover:border-[var(--color-secondary)] hover:scale-110 transition-all shadow-sm">
-                  <Github className="w-6 h-6" />
-                </Button>
               </div>
             </motion.div>
           </motion.div>
