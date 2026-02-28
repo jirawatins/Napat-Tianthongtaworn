@@ -1,0 +1,7 @@
+{
+  "name": "Napat Portfolio",
+  "description": "A modern, interactive personal portfolio built with React, TypeScript, and Tailwind CSS. Features smooth animations, dark mode support, responsive design, and 3D graphics. Showcases professional experience, skills, and projects with a contemporary aesthetic and optimal performance.",
+  "version": "1.0.0",
+  "author": "Napat Tianthongtaworn",
+  "technologies": ["React", "TypeScript", "Vite", "Tailwind CSS", "Three.js", "Motion", "Lenis"]
+}

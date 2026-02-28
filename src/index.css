@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Kanit:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+:root {
+  --bg-primary: #fdf8fb; /* Very light tint of primary */
+  --bg-secondary: #ffffff;
+  
+  --primary: #cb96c4;
+  --secondary: #3bc2b1;
+  
+  --text-primary: #4a4a4a;
+  --text-secondary: #cb96c4;
+  --accent: #cb96c4;
+  --border: #f0e6ef;
+}
+
+.dark {
+  --bg-primary: #1a1518;
+  --bg-secondary: #261f24;
+  
+  --primary: #cb96c4;
+  --secondary: #3bc2b1;
+  
+  --text-primary: #f0f0f0;
+  --text-secondary: #cb96c4;
+  --accent: #cb96c4;
+  --border: #3d323a;
+}
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+  --font-thai: "Kanit", sans-serif;
+  
+  --color-bg-primary: var(--bg-primary);
+  --color-bg-secondary: var(--bg-secondary);
+  --color-text-primary: var(--text-primary);
+  --color-text-secondary: var(--text-secondary);
+  --color-accent: var(--accent);
+  --color-border: var(--border);
+  
+  --color-primary: var(--primary);
+  --color-secondary: var(--secondary);
+}
+
+body {
+  background-color: var(--color-bg-primary);
+  color: var(--color-text-primary);
+  font-family: var(--font-sans);
+  transition: background-color 0.3s ease, color 0.3s ease;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-display);
+  color: var(--color-text-primary);
+}
+
+.bg-dots {
+  background-image: radial-gradient(var(--color-primary) 2px, transparent 2px);
+  background-size: 30px 30px;
+}
+
+.bg-dots-secondary {
+  background-image: radial-gradient(var(--color-secondary) 2px, transparent 2px);
+  background-size: 30px 30px;
+}
+
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation: none;
+  mix-blend-mode: normal;
+}
+
+::view-transition-new(root) {
+  z-index: 9999;
+}
+
+::view-transition-old(root) {
+  z-index: 1;
+}
